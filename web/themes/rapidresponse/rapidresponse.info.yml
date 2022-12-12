@@ -1,0 +1,22 @@
+name: rapidresponse
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - rapidresponse/base
+  - rapidresponse/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - rapidresponse/user
+  core/drupal.dropbutton:
+    - rapidresponse/dropbutton
+  core/drupal.dialog:
+    - rapidresponse/dialog
+  file/drupal.file:
+    - rapidresponse/file
+  core/drupal.progress:
+    - rapidresponse/progress
+core_version_requirement: ^9
+generator: 'starterkit_theme:9.4.9'
